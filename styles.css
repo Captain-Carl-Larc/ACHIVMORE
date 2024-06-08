@@ -35,6 +35,9 @@ ul,ol{
     justify-content: center;
     align-items: center; 
 }
+.events-holder-cont{
+    justify-content: space-around;   
+}
 #navbarDropdown{
     color: white;
 }
