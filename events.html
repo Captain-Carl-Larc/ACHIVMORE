@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-primary">
+    <!-- navigation bar container -->
+    <div class="">
+      <nav class="navbar my-nav navbar-expand-md ps-md-3 ps-md-3 navbar-dark bg-dark ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">ACHIV<span id="logo-span" class="fw-bold">MORE</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active fs-5" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  active fs-5" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fs-5 text-primary fw-bold" href="events.html">Events</a>
+                </li>
+                <li class="nav-item dropdown active fs-5 text-white">
+                  <a class="nav-link dropdown-toggle" href="learn.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Learn
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="financial.html">Financial</a></li>
+                    <li><a class="dropdown-item" href="personal-development.html">Personal development</a></li>
+                    <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                    <li><a class="dropdown-item" href="academics.html">Academics</a></li>
+                    <li><a class="dropdown-item" href="health.html">Health & Wellness</a></li>
+<!--                       <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fs-5" href="contact-us.html">Contact</a>
+                </li>  
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </div>
+    <!-- heading container -->
+    <div class="px-4 py-3 bg-danger">
+      <div class="bg-primary row">
+        <div class="col events-head-cont">
+            <h3 class="mx-auto">Our Events</h3>
+        </div>
+    </div>
+    </div>
+
+  <!--   events categories section -->
+    <div class="px-4 py-3">
+        <div class="row">
+            <div class="col-4">
+                <div class="card w-50">
+                    <div class="card-body">
+                      <h5 class="card-title">Past events</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#past-events" class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card w-50">
+                    <div class="card-body">
+                      <h5 class="card-title">Current events</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#current-events" class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card w-50">
+                    <div class="card-body">
+                      <h5 class="card-title">Upcoming events</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#upcoming-events" class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+ <!--    events gallery -->
+ <div class="px-4 py-3">
+    <div>
+        <div class="col events-head-cont pb-3">
+            <h3 class="mx-auto">View our gallery</h3>
+        </div>
+    </div>
+    <div>
+        <div class="row gallery-cont">
+            <div class="col-6">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators ">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="banner-photo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="banner-photo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="banner-photo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, laborum!.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+ 
+ </div>
+
+<!--  section for past events -->
+<div class="px-4 py-3" id="past-events">
+    <div class="col events-head-cont">
+        <h3 class="mx-auto">Past events</h3>
+    </div>
+    <div class="row justify-content-evenly gx-2">
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!-- section for current events -->
+<div class="px-4 py-3 border-2 border-top border-dark border-bottom" id="current-events" >
+    <div class="col events-head-cont">
+        <h3 class="mx-auto">Current events</h3>
+    </div>
+    <div class="row justify-content-evenly gx-2">
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!-- section for upcoming events -->
+<div class="px-4 py-3" id="upcoming-events">
+    <div class="col events-head-cont">
+        <h3 class="mx-auto">Upcoming events</h3>
+    </div>
+    <div class="row justify-content-evenly gx-2">
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                  <a href="#" class="btn btn-primary mt-2">Book slot</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                  <a href="#" class="btn btn-primary mt-2">Book slot</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="banner-photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Home of mercy childrens home visit</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">More about this event</a>
+                  <a href="#" class="btn btn-primary mt-2">Book slot</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!-- banner for events recordings -->
+<div class="px-4 py-3 bg-dark text-primary intro-cont">
+    <h3>Missed an event? We got you covered!</h3>
+    <ol>
+        <li>step 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>step 2 Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>step 3 Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>step 4 Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+        <li>step 5 Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+    </ol>
+</div>
+<!-- Newsletter to get events notification -->
+<div class="px-4 py-3 bg-danger text-primary intro-cont">
+    <h3>Sign up for our Newsletter so you never miss an event!</h3>
+    <div class="row intro-cont">
+        <div class="col-12">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email">
+              <span class="input-group-btn">
+              <button class="btn btn-dark" type="submit">Subscribe</button>             
+            </div>
+        </div>
+        <div class="col-12 pt-4">
+            <div>
+                <img src="banner-photo.jpg" class="img-fluid" alt="">             
+            </div>
+        </div>
+    </div>
+</div>
+<!-- social media links -->
+<div class="px-4 py-3 bg-danger border-bottom border-dark border-2">
+  <div class="row bg-danger">
+    <div class="col-2">
+      <div>
+        <i class="bi bi-facebook"></i>
+      </div>
+    </div>
+    <div class="col-2">
+      <div>
+        <i class="bi bi-whatsapp"></i>
+      </div>
+    </div>
+    <div class="col-2">
+      <div>
+        <i class="bi bi-tiktok"></i>
+      </div>
+    </div>
+    <div class="col-2">
+      <div>
+        <a href="youtube.com"><i class="bi bi-youtube"></i></a>        
+      </div>
+    </div>
+    <div class="col-2">
+      <div>
+        <i class="bi bi-twitter-x"></i>
+      </div>
+    </div>
+    <div class="col-2">
+      <div>
+        <i class="bi bi-instagram"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer links and newsletter sign up -->
+<div class="bg-danger px-4 py-3">
+  <div class="row gx-2">    
+    <div class="col-4 col-md-2 col-lg-1 ps-0 fs-5">
+      <h3 class="text-white">Links</h3>
+      <ul class="margin-c">
+        <li >
+          <a href="#" class="fw-medium text-dark">support</a>
+        </li>
+        <li>
+          <a href="" class="fw-medium text-dark">partner</a>
+        </li>
+        <li>
+          <a href="#" class="fw-medium text-dark">News</a>
+        </li>
+        <li>
+          <a href="#" class="fw-medium text-dark">Privacy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-8 col-md-4 col-lg-5">
+      <h4 class="text-white">Contact</h4>
+      <ul class="margin-c">
+        <li class="text-white"><span class=" text-primary"><i class="bi bi-geo-alt-fill"></i></span>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, illum?</li>
+        <li class="text-white mb-2"><span class="pe-1 text-primary"><i class="bi bi-telephone-fill"></i></span>(+254) 712-345-678</li>
+        <li class="text-white"><span class="pe-1 text-primary"><i class="bi bi-envelope-at-fill"></i></span>emailtous@email.com</li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-6  col-lg-6">
+      <p class="h3 text-white">Get free inspiration motivation and education to your mail</p>
+      <div class="input-group">
+        <input type="email" class="form-control" placeholder="Enter your email">
+        <span class="input-group-btn">
+        <button class="btn btn-dark" type="submit">Subscribe</button>
+        </span>
+      </div>
+    </div>
+    </div>
+  </div>
+<!--   copyrights -->
+<div class="bg-primary px-4 py-3">
+  <div class="row copyrights">
+    <p class="">&copy; Achiv 2024 - All rights reserved</p>
+  </div>
+  
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
