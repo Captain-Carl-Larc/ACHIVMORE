@@ -1,6 +1,9 @@
 #logo-span{
     color: orange;
 }
+body{
+    background-color: orange;
+}
 a{
     text-decoration: none;
 }
@@ -47,4 +50,22 @@ body{
 .margin-c{
     margin: 0;
     padding: 0;
+}
+#what-we-offer{
+    margin: 0rem 2rem 0rem 0rem ;
+    padding: 0;
+    list-style: decimal;
+    /* background: blue; */
+}
+#what-we-offer li{
+    margin:0rem 0rem 0rem 1rem;
+}
+.my-font{
+    font-size: 1.2rem;
+}
+.our-reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: pink;   
 }
