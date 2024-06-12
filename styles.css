@@ -51,6 +51,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 #what-we-offer{
     margin: 0rem 2rem 0rem 0rem ;
     padding: 0;
@@ -68,4 +69,9 @@ body{
     justify-content: center;
     align-items: center; 
     background-color: pink;   
+}
+
+/* BLOGS STYLING */
+#blogs-side-bar{
+    height: fit-content;
 }
